@@ -34,6 +34,29 @@ Explore the architecture, engineering decisions, and technical challenges behind
 
 These documents provide insight into my work as a **Full Stack Developer and Product Owner**, connecting business requirements, software architecture, implementation, and automated testing.
 
+## Application Screenshots
+
+FinPath features a web interface developed with React and TypeScript, designed to help users monitor their financial activities and make informed decisions.
+
+### Financial Dashboard
+
+The dashboard provides an overview of the user's financial position, including account balances, monthly income, expenses, and spending distribution by category.
+
+![FinPath Financial Dashboard](screenshots/dashboard.png)
+
+*FinPath financial dashboard displaying sample data for demonstration purposes.*
+
+### Key Features Demonstrated
+
+- Monthly financial overview.
+- Current account balance.
+- Income and expense summaries.
+- Monthly financial results.
+- Expense distribution by category.
+- Month and year selection.
+- Navigation between financial management modules.
+
+
 ### Business Objectives
 
 - Simplify personal financial management.
