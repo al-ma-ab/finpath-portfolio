@@ -226,37 +226,63 @@ The architecture is designed to support future scalability, cloud deployment, an
 
 ## 5. Product Features
 
+FinPath is under active development. The features below are categorized according to their current implementation and validation status.
+
 ### Implemented Features
 
-- User registration.
-- User authentication using JWT.
-- Secure password storage.
-- Financial account management.
-- Financial transaction management.
-- Financial dashboard.
-- Historical balance calculations.
-- Monthly financial history.
-- Backend validation and error handling.
+**Authentication and Security**
+- User registration and login.
+- JWT-based authentication.
+- Secure password hashing.
+- User-level data isolation and authorization.
+- Input validation and standardized error handling.
 
-### Implemented — Validation Pending
+**Financial Management**
+- Financial account management.
+- Income and expense transaction management.
+- Transaction filtering and pagination.
+- Financial dashboard with monthly summaries.
+- Expense aggregation by category.
+- Current and historical balance calculations.
+- Monthly financial history.
+
+**Financial Planning**
+- Recurring financial transactions.
+- Financial projections based on future and recurring transactions.
+- Configurable projection horizons.
+- Savings goals with target amounts and deadlines.
+- Goal progress tracking.
+- Financial feasibility assessments for savings goals.
+
+**Engineering and Quality**
+- REST API development with Spring Boot.
+- PostgreSQL persistence using Spring Data JPA.
+- Database schema migrations with Flyway.
+- Automated unit and integration tests.
+- PostgreSQL integration testing with Testcontainers.
+- OpenAPI documentation.
+
+### Implemented — Additional Validation or Release Configuration Required
 
 - Password recovery and reset flow.
+- Receipt storage and management.
+- OCR-based receipt processing, currently intended to remain disabled for end users at initial launch while accuracy improvements are developed.
+- AWS integrations for email delivery and document processing.
 
-### Features Under Development or Planned
+These capabilities require additional end-to-end validation, configuration, or release-readiness checks before being considered production-ready.
 
-- Recurring financial transactions.
-- Financial projections.
-- Savings goals.
-- Receipt storage and processing.
-- OCR-based financial data extraction.
-- Email verification.
-- Open Finance integration.
-- AI-powered financial automation.
-- Android and iOS applications.
+### Planned Features
 
-Feature availability may change as development progresses.
+- Mandatory email verification during registration.
+- Public cloud deployment with separate development and production environments.
+- Open Finance integrations.
+- AI-assisted financial automation.
+- Advanced receipt processing.
+- Messaging-based financial transaction registration.
+- Native Android and iOS applications.
 
----
+**Project status:** Active development. Implemented functionality does not necessarily indicate production readiness.
+
 
 ## 6. Product Management
 
