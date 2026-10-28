@@ -78,6 +78,26 @@ Users can select a projection horizon and analyze how expected income and expens
 - Month-by-month balance evolution.
 - Clear distinction between current and projected balances.
 
+### Financial Goals
+
+FinPath helps users define financial goals, track savings progress, and assess whether their financial capacity is sufficient to achieve their objectives within a specified deadline.
+
+![FinPath Financial Goals](screenshots/financial-goals.png)
+
+*Financial goals interface displaying fictional data and a goal feasibility assessment.*
+
+**Key capabilities:**
+- Create, update, and delete financial goals.
+- Define target amounts and deadlines.
+- Track manually allocated savings.
+- Monitor goal completion percentages.
+- Calculate remaining amounts.
+- Evaluate financial feasibility based on projected financial capacity.
+- Identify goals at risk of not being achieved within their deadlines.
+
+The financial assessment considers the available projection horizon and provides an explanation when a goal is classified as at risk.
+
+Manually allocated savings are tracked separately and do not directly modify bank account balances.
 
 ### Key Features Demonstrated
 
