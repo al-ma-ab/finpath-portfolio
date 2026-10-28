@@ -60,6 +60,24 @@ FinPath allows users to manage financial accounts, monitor their current balance
 - Configure balance reference dates.
 - Monitor account balances based on recorded financial transactions.
 
+### Financial Projection
+
+FinPath helps users anticipate their financial position by calculating projected balances based on future transactions and recurring financial activities.
+
+Users can select a projection horizon and analyze how expected income and expenses may affect their financial position over time.
+
+![FinPath Financial Projection](screenshots/financial-projection.png)
+
+*Financial projection interface displaying fictional financial data over a three-month planning horizon.*
+
+**Key capabilities:**
+- Financial projections based on future transactions and recurring activities.
+- Configurable projection horizon.
+- Monthly income and expense forecasts.
+- Projected financial results.
+- Month-by-month balance evolution.
+- Clear distinction between current and projected balances.
+
 
 ### Key Features Demonstrated
 
