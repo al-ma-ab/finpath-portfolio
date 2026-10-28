@@ -46,6 +46,21 @@ The dashboard provides an overview of the user's financial position, including a
 
 *FinPath financial dashboard displaying sample data for demonstration purposes.*
 
+### Account Management
+
+FinPath allows users to manage financial accounts, monitor their current balances, and maintain an initial balance reference for accurate financial tracking.
+
+![FinPath Account Management](screenshots/accounts.png)
+
+*Account management interface displaying fictional financial data.*
+
+**Key capabilities:**
+- Create, view, update, and delete financial accounts.
+- Track initial and current account balances.
+- Configure balance reference dates.
+- Monitor account balances based on recorded financial transactions.
+
+
 ### Key Features Demonstrated
 
 - Monthly financial overview.
