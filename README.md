@@ -23,6 +23,17 @@ The platform is being developed as a responsive web application, with future pla
 
 The long-term product vision includes financial automation, artificial intelligence, receipt processing, and Open Finance integrations.
 
+## Technical Documentation
+
+Explore the architecture, engineering decisions, and technical challenges behind FinPath.
+
+| Document | Description |
+|----------|-------------|
+| [Software Architecture](ARCHITECTURE.md) | Explore the layered architecture, JWT authentication, PostgreSQL persistence, AWS integrations, and key engineering decisions. |
+| [Case Study 01 — Secure Financial Data Isolation](CASE_STUDY_01.md) | Learn how user-level authorization was implemented and validated through 14 successful integration tests. |
+
+These documents provide insight into my work as a **Full Stack Developer and Product Owner**, connecting business requirements, software architecture, implementation, and automated testing.
+
 ### Business Objectives
 
 - Simplify personal financial management.
