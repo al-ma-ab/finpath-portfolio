@@ -190,35 +190,7 @@ I am responsible for the product lifecycle, from initial concept and requirement
 ## 4. Solution Architecture
 
 FinPath follows a layered application architecture that separates user interfaces, business logic, persistence, and external integrations.
-
-```text
-                  USERS
-                    |
-                    v
-              WEB APPLICATION
-              React + TypeScript
-                    |
-                    v
-                 REST APIs
-                    |
-                    v
-              SPRING BOOT
-                  Java 21
-                    |
-          +---------+---------+
-          |         |         |
-          v         v         v
-      Security   Business    External
-        JWT      Services  Integrations
-          |         |         |
-          +---------+---------+
-                    |
-                    v
-               PostgreSQL
-                    |
-                    v
-                 Flyway
-```
+![FinPath diagram solution Architecture](screenshots/4-diagram.png)
 
 The architecture is designed to support future scalability, cloud deployment, and integration with additional financial services.
 
